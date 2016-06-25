@@ -1,0 +1,51 @@
+{
+  "name": "table_tribes",
+  "version": "2.0.0",
+  "description": "Table tribes web app 2.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tabletribes/beta.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "babel"
+  ],
+  "author": "Mahi22",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tabletribes/beta/issues"
+  },
+  "homepage": "https://github.com/tabletribes/beta#readme",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-eslint": "^6.1.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.9.2",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "axios": "^0.12.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.5.1",
+    "react-select": "^1.0.0-beta13",
+    "redux": "^3.5.2",
+    "redux-form": "^5.2.5",
+    "redux-thunk": "^2.1.0"
+  }
+}
